@@ -5,7 +5,7 @@ import { FiDownload } from "react-icons/fi";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-10 px-6">
+    <footer className="bg-blackSite text-white py-10 px-6">
       <div className="mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-10">
           <div className="text-center md:text-left">

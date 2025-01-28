@@ -1,7 +1,19 @@
+import Advantage from "../components/advantage";
+import Companies from "../components/companies";
+import Getyourcard from "../components/getyourcard";
+import Services from "../components/services";
+import Slider from "../components/slider";
+import TestimonialSlider from "../components/testimonials";
+
 export default function HomePage() {
   return (
     <>
-      <div className="m-16 text-center">Aqui vai o conteúdo!</div>
+      <Slider />
+      <Advantage />
+      <Companies />
+      <Services />
+      <Getyourcard />
+      <TestimonialSlider />
     </>
   )
 }
